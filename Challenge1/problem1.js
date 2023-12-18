@@ -1,5 +1,8 @@
+//functionthat prompts the user to input student marks and displays the marks and grade on an alert
+
 const consoleInput = prompt("Enter Student Marks");
 
+//taking in marks
 function promptFunc(marks) {
   if (marks >= 79 && marks <= 100) {
     return "A";
@@ -16,5 +19,7 @@ function promptFunc(marks) {
   }
 }
 
+// calling the function aon taking in marks
 const grade = promptFunc(parseInt(consoleInput));
+//displaying marks on the page and grade with an alert
 alert(`your student marks: ${consoleInput}\n Grade: ${grade}`);

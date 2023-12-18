@@ -1,5 +1,8 @@
+// rogram that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok” otherwise returns demerit points and suspended
+
 const consoleInput = prompt("Enter Speed");
 
+//taking in speed parameter
 function speedDetector(speed) {
   const speedLimit = 70;
   const pointsPerDemerit = 5;
@@ -17,7 +20,5 @@ function speedDetector(speed) {
     }
   }
 }
+// displaying the demerit points on the console
 console.log(speedDetector(90));
-
-alert(`your demerit Points:${demeritPoints}`);
-// alert(`your student marks: ${consoleInput}\n Grade: ${grade}`);

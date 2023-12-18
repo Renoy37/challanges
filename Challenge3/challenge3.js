@@ -1,5 +1,6 @@
 // function to calculate payee
 
+//takes in pay and calculates the payee based on the conditions
 function payee(pay) {
   if (pay <= 24000) {
     return console.log(pay * 0.1);
@@ -17,14 +18,13 @@ function payee(pay) {
 }
 payee(500200);
 
-
-// function to calculate nssf
-function rates (tire) {
+// function to calculate nssf deductions
+function rates(tire) {
   if (tire <= 6000) {
-    return console.log("tire1:" ,tire * 0.06)
+    return console.log("tire1:", tire * 0.06);
   }
-  if (tire >= 6001 && tire <= 18000 ) {
-    return console.log("tire2:" ,tire * 0.06)
+  if (tire >= 6001 && tire <= 18000) {
+    return console.log("tire2:", tire * 0.06);
   }
 }
-rates(3000)
+rates(3000);
