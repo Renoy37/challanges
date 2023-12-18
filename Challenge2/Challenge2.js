@@ -1,6 +1,6 @@
-// rogram that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok” otherwise returns demerit points and suspended
+// program that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok” otherwise returns demerit points and suspended
 
-const consoleInput = prompt("Enter Speed");
+// const consoleInput = prompt("Enter Speed");
 
 //taking in speed parameter
 function speedDetector(speed) {
