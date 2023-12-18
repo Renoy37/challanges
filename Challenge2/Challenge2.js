@@ -4,6 +4,7 @@
 
 //taking in speed parameter
 function speedDetector(speed) {
+  //variables to store the speedLimit,pointsPerDemerit,pointsThreshold 
   const speedLimit = 70;
   const pointsPerDemerit = 5;
   const pointsThreshold = 12;

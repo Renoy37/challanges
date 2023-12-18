@@ -2,7 +2,7 @@
 
 const consoleInput = prompt("Enter Student Marks");
 
-//taking in marks
+//taking in marks and returning if the conditions are met
 function promptFunc(marks) {
   if (marks >= 79 && marks <= 100) {
     return "A";

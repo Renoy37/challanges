@@ -19,12 +19,12 @@ function payee(pay) {
 payee(500200);
 
 // function to calculate nssf deductions
-function rates(tire) {
-  if (tire <= 6000) {
-    return console.log("tire1:", tire * 0.06);
+function rates(tier) {
+  if (tier <= 6000) {
+    return console.log("tier1:", tier * 0.06);
   }
-  if (tire >= 6001 && tire <= 18000) {
-    return console.log("tire2:", tire * 0.06);
+  if (tier >= 6001 && tire <= 18000) {
+    return console.log("tier2:", tier * 0.06);
   }
 }
 rates(3000);
