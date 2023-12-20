@@ -58,7 +58,7 @@ function calculateNetSalary(basicSalary, benefits) {
   let nssfDeduction = 0;
   if (basicSalary <= 6000) {
     nssfDeduction = basicSalary * 0.06;
-  } else if (basicSalary <= 18000) {
+  } else if (basicSalary >= 18000) {
     nssfDeduction = basicSalary * 0.06;
   }
 
